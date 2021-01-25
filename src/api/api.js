@@ -48,11 +48,3 @@ export const authAPI = {
 		return instance.delete(`auth/login`);
 	},
 }
-
-
-// export const getUsers2 = (currentPage = 1, pageSize = 10) => {
-// 	return instance.get('follow?page=${currentPage}&count=${pageSize}')
-// 		.then(response => {
-// 			return response.data;
-// 		});
-// }
